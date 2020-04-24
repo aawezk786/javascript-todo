@@ -1,6 +1,6 @@
 'use strict'
 
-// get todos from local storage
+// get todos 
 const getSavedTodos = () => {
     const todosJSON = localStorage.getItem('todos');
     
@@ -11,7 +11,7 @@ const getSavedTodos = () => {
     } 
 }
 
-// Save todos to localStorage
+// Save todos 
 const saveTodos = (todos) => {
     localStorage.setItem('todos', JSON.stringify(todos))
 }
